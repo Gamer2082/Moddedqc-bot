@@ -5,7 +5,7 @@ bot = commands.Bot(command_prefix ="/", description = "bot officielle de ModdedQ
 
 @bot.event()
 	async def on_ready():
-		print("Ready !")
+		print("Ready ! I'm here,i'm ok ")
 		await client.change_presence(statut=discord.status.online)
 		#variable help
 		helpCommand ="/salut:pour saluer le bot /n /ip:pour avoir l'ip du serveur Minecraft /n /version pour avoir la version de Minecraft /n /infodiscord: pour avoir les infos sur le serveur discord /n /site: pour avoir l'address du site web de ModdedQC/n /vote pour avoir le site de vote du serveur Minecraft et soutenir le serveur en remportent des récompence /n /invite pour avoir un lien d'invitation vers le serveur Discord à partager /n /infojeu pour avoir les information sur le serveur Minecraft /n /staffbot: pour avoir le nom des personnes à mentionner en cas de probléme avec le bot /n /régle pour avoir les régle du serveur Discord s'aplicant aussi au chat ingame /n /help: pour avoir cette liste /cordialement @Gamer_m et le staff :)"
