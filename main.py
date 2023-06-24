@@ -203,6 +203,6 @@ async def login_slash(interaction:discord.Interaction, verify:bool):
 
 
 
-token = "MTA0MTM3MDYyMzM3NDUzMjcwOQ.GW_LPO.fMCEXOrAD68Zeje4l9GxsRZVNlS0Tf49E0pQ0Q"
+token = "Token"
 
 bot.run(token)
